@@ -1,7 +1,7 @@
 name "sub_16_bit"
 
-#MAKE_COM#
-ORG 100h
+#make_com#
+org 100h
 
 MOV AX, 1234h; 3-byte instruction loading 34h -> BL and then 12h -> BH
 MOV BX, 5678h; 3-byte instruction loading 78h -> AL and then 56h -> AH

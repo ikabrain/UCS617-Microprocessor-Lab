@@ -25,8 +25,8 @@ name "add_16_bit"
 
 ; NOTE: In emu8086, immediate hex nos is represented with prefix '0' (if starts with alpha) and suffix 'h'.
 
-#MAKE_COM# ; instruct compiler to make COM file.
-ORG 100h ; directive required for a COM program
+#make_com# ; instruct compiler to make COM file.
+org 100h ; directive required for a COM program
 
 MOV AX, 2345h; 24-bit/3-byte instruction loading 45h -> AL and then 23h -> AH!!!
 MOV BX, 1111h; 24-bit/3-byte instruction loading 11h -> BL and then 11h -> BH

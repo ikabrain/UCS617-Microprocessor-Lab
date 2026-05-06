@@ -1,7 +1,7 @@
 name "mul_16_bit"
 
-#MAKE_COM#
-ORG 100h
+#make_com#
+org 100h
 
 MOV AX, 1000h
 MOV BX, 5678h

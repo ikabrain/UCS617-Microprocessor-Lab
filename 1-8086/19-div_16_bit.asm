@@ -1,7 +1,7 @@
 name "div_16_bit"
 
-#MAKE_COM#
-ORG 100h
+#make_com#
+org 100h
 
 ; Q. Divide a 32-bit/4-byte no stored at address [0200H] in RAM, by a 16-bit/2-byte no stored at [0300H]. Store the quotient at [0500H] and remainder at [0550H]
 
