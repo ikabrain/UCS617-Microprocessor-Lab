@@ -30,6 +30,8 @@ MOV [0550H], DX ; Remainder
 
 HLT
 
+; See the changes in the memory by going to view -> memory and typing in the [offset] after the colon!
+
 ; ALL flags are undefined after DIV
 
 ; PLEASE NOTE:  If the divisor is 0 or the result is too large to fit in AL (or AX for 16-bit divisor),
